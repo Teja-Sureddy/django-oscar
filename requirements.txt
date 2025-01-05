@@ -1,0 +1,21 @@
+psycopg[binary]==3.2.3
+django==5.0.10
+django-environ==0.11.2
+django-model-utils==5.0.0
+django-htmx==1.21.0
+python-slugify==8.0.4
+argon2-cffi==23.1.0
+
+# oscar
+pillow>=6.0
+django-extra-views>=0.13,<0.15
+django-haystack>=3.0b1
+django-treebeard>=4.3.0
+Babel>=1.0,<3.0
+purl>=0.7
+phonenumbers
+django-phonenumber-field>=4.0.0,<9.0.0
+factory-boy>=3.3.1,<4.0.0
+django-tables2>=2.3,<2.8
+django-widget-tweaks>=1.4.1
+sorl-thumbnail>=12.10.0,<13.0.0
