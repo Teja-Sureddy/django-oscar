@@ -1,6 +1,6 @@
-allow get for logout, search for 'logout/' and change the view
+# Ecommerce Using Django Oscar
 
-# Ecommerce Using Oscar
+E-Commerce Template for Django Using Django Oscar
 
 | Package  | Version |
 |----------|---------|

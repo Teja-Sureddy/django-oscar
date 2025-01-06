@@ -24,7 +24,7 @@ OSCAR_RECENTLY_VIEWED_PRODUCTS = 20
 OSCAR_DEFAULT_CURRENCY = "GBP"
 
 # Paths
-OSCAR_IMAGE_FOLDER = "images/products/%Y/%m/"
+OSCAR_IMAGE_FOLDER = "assets/images/products/%Y/%m/"
 OSCAR_DELETE_IMAGE_FILES = True
 
 # Copy this image from oscar/static/img to your MEDIA_ROOT folder.

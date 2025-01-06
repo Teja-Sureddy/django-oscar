@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import environ
+import os
 
 env = environ.Env()
 environ.Env.read_env()
@@ -161,6 +162,9 @@ USE_I18N = True
 USE_TZ = True
 STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'assets'),
+]
 
 LOGGING = {
     "version": 1,
@@ -196,6 +200,10 @@ HAYSTACK_CONNECTIONS = {
 
 # 3RD PARTY
 # ------------------------------------------------------------------------------
+# SORL THUMBNAIL
+# ------------------------------------------------------------------------------
+THUMBNAIL_PREFIX = 'assets/cache/'
+
 # EMAIL
 # ------------------------------------------------------------------------------
 EMAIL_BACKEND = env("DJANGO_EMAIL_BACKEND", default="django.core.mail.backends.smtp.EmailBackend")
